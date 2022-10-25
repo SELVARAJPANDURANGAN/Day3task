@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // 1. For the given JSON iterate overall forloops (for,forin,for,forEach)
+
+       // <i>.For Loop
+            let trt= ["t","76","true","yyy"]
+            //console.log(trt)
+            for(s=0;s<trt.length;s++)
+            {
+                console.log(trt[s])
+            }
+      //<ii>    FOR IN LOOP
+            var obj = {
+                name :"selva",
+                place:"chennai",
+                job:"engineer",
+                color:"white",
+                pen:"parker"
+            }
+           for(var key in obj) {
+                console.log(key)}
+
+
+       // <iii> For of loop
+
+             var boy =["head","hand","teeth","mouth"]
+            for(var human of boy)
+             
+             {
+                   console.log(human)
+              }
+
+              // <iv> ForEach Loop
+                
+            var arr =[1,2,3,4,5]
+            arr.forEach((element)=>console.log(element*9))
+
+
+
+    </script>
+    
+</body>
+</html>
